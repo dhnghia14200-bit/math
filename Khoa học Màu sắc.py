@@ -20,13 +20,13 @@ with col_c:
         st.caption("Chưa có images/logo_khoa.png")
 with col_b:
     st.markdown(
-        "<h3 style='text-align:center;'>TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP.HCM<br>"
-        "KHOA CÔNG NGHỆ IN VÀ TRUYỀN THÔNG</h3>",
+        "<h3 style='text-align:center;'>TRƯỜNG ĐẠI HỌC CÔNG NGHỆ KỸ THUẬT TP.HCM<br>"
+        "KHOA IN VÀ TRUYỀN THÔNG</h3>",
         unsafe_allow_html=True,
     )
 
 st.write("### Chào mừng bạn đến với project Khoa học Màu sắc của mình!")
-st.write("# Mình tên là Võ Tự Thanh, MaSV 22158139")
+st.write("# Mình tên là Đào Hữu Nghĩa, MSSV 23458011")
 
 st.markdown(
     """
