@@ -106,7 +106,7 @@ elif chon_item == "Phổ màu vàng và magenta trên nền trắng":
         plt.xlim((400,700))
         plt.xlabel('Bước sóng (nm)')
         plt.ylabel('Phổ phản xạ')
-        plt.title('Phổ màu tím trên nền trắng với a = 0:0.1:1')
+        plt.title('Phổ màu magenta trên nền trắng với a = 0:0.1:1')
         st.pyplot(fig, clear_figure=True)
 elif chon_item == "Đường cong tái tạo tông màu vàng và magenta":
     n = 20
@@ -137,13 +137,13 @@ elif chon_item == "Đường cong tái tạo tông màu vàng và magenta":
 
         plt.xlabel('Giá trị mục tiêu của a')
         plt.ylabel('Giá trị thực tế của a')
-        plt.title('Đường cong tái tạo tông màu tím')
+        plt.title('Đường cong tái tạo tông màu magenta')
         st.pyplot(fig, clear_figure=True)
 elif chon_item == "Trộn hai màu vàng và magenta":
     _, col, _ = st.columns([1, 3, 1])
     with col:
         pham_vi = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
-        a_mag_target = st.number_input('Nhập mục tiêu a của màu tím [0:0.1:1]')
+        a_mag_target = st.number_input('Nhập mục tiêu a của màu magenta [0:0.1:1]')
         a_yel_target = st.number_input('Nhập mục tiêu a của màu vàng [0:0.1:1]')
         if st.button('Dự báo'):
             if a_mag_target in pham_vi and a_yel_target in pham_vi:
